@@ -1,0 +1,63 @@
+@use "../include" as *;
+
+.firstScreen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  min-height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.headerContainer {
+  @extend %container;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logoIcon {
+  width: 65px;
+}
+
+.logoText {
+  font-size: 24px;
+  color: white;
+
+  i {
+    color: $yellow1;
+    font-style: normal;
+  }
+}
+
+.logoIcon + .logoText {
+  margin-left: 10px;
+}
+
+.hero {
+  flex-grow: 1;
+}
+
+.estimateBanner {
+  background: black;
+  text-align: center;
+  // margin-top: 30px;
+  // padding: 20px;
+  font-size: 40px;
+  font-weight: 300;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    color: white;
+    span {
+      color: $yellow1;
+    }
+  }
+}

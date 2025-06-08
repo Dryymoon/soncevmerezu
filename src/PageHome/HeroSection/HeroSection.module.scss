@@ -1,0 +1,148 @@
+.hero {
+  position: relative;
+  background: url("./assets/main-banner.png") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px 40px;
+  font-family: sans-serif;
+
+
+  .overlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+  }
+
+  .leftBlock {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .sunText {
+    color: #ffd400;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .install {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .subInstall {
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  .moreBtn {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #ffd400;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .rightBlock {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .feature {
+    background: #333;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .callback {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .callbackBtn {
+    background-color: #ffd400;
+    color: #000;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+
+  .phone {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .estimateBanner {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .highlight {
+    color: #ffd400;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .overlay {
+      flex-direction: column;
+    }
+
+    .leftBlock,
+    .rightBlock {
+      flex: 1 1 100%;
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    .sunText {
+      font-size: 30px;
+    }
+  }
+}

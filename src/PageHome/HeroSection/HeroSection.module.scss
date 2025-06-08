@@ -30,7 +30,6 @@
 
   .content {
     @extend %container;
-    // padding: 90px 0;
     display: flex;
     width: 100%;
   }
@@ -64,10 +63,8 @@
   }
 
   .install {
-    // font-weight: bold;
     margin-top: 58px;
     font-size: 20px;
-    // font-size: 16px;
   }
 
   .subInstall {
@@ -88,20 +85,12 @@
   }
 
   .rightBlock {
-    // flex: 1 1 45%;
-    /// display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .features {
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
-    // gap: 9px;
     margin: -5px;
     display: flex;
     max-width: 400px;
@@ -132,11 +121,6 @@
       margin-top: 15px;
     }
   }
-
-  .highlight {
-    color: #ffd400;
-    font-weight: bold;
-  }
 }
 
 .spacerBeforeContent {
@@ -149,25 +133,41 @@
 }
 
 .callback {
-  // flex-grow: 1;
   display: flex;
   align-items: center;
   gap: 12px;
   justify-content: center;
 }
 
+.callActionContainerHref {
+  display: flex;
+  align-items: center;
+}
+
 .callbackBtn {
   background-color: #ffd400;
   color: #000;
   border: none;
-  border-radius: 9999px;
-  padding: 10px 16px;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  padding: 2px 30px;
   cursor: pointer;
+  font-size: 20px;
+  min-height: 48px;
 }
 
 .phone {
   color: #fff;
-  font-weight: bold;
+  // font-weight: bold;
+  font-weight: lighter;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border: 2px solid white;
+  border-left: 0px none;
+  padding: 2px 30px;
 }

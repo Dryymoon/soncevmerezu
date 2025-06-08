@@ -58,9 +58,11 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
       </div>
       <div className={styles.spacerBetweenContentAndCallback} />
       <div className={styles.callback}>
-        <button className={styles.callbackBtn}>Зворотній дзвінок</button>
-        <a className={styles.phone} href="tel:+380966116116">
-          +38 096 611 61 16
+        <a className={styles.callActionContainerHref} href="tel:+380966116116">
+          <button className={styles.callbackBtn}>Зворотній дзвінок</button>
+          <span className={styles.phone}>
+            +38&nbsp;<b>096 611 61 16</b>
+          </span>
         </a>
       </div>
       <div className={styles.spacerAfterCallback} />

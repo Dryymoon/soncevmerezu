@@ -58,11 +58,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
       </div>
       <div className={styles.spacerBetweenContentAndCallback} />
       <div className={styles.callback}>
-        <a className={styles.callActionContainerHref} href="https://t.me/soncevmerezu?text=Вітаю, я з сайту soncevmerezu.com.ua">
+        <a
+          className={styles.callActionContainerHref}
+          href="https://t.me/soncevmerezu?text=Вітаю, я з сайту soncevmerezu.com.ua"
+        >
           <button className={styles.callbackBtn}>Написати в телеграм</button>
-          <span className={styles.phone}>
-            TG: @soncevmerezu
-          </span>
+          <span className={styles.phone}>TG: @soncevmerezu</span>
         </a>
       </div>
       <div className={styles.spacerAfterCallback} />

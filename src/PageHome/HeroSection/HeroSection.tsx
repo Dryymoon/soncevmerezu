@@ -32,7 +32,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
           </p>
           <p className={styles.install}>Встановлюємо за 2 дні</p>
           <p className={styles.subInstall}>панелі, інвертор, акумулятори</p>
-          <button className={styles.moreBtn}>Дізнатися більше</button>
+          {/* <button className={styles.moreBtn}>Дізнатися більше</button> */}
         </div>
 
         <div className={styles.rightBlock}>
@@ -58,10 +58,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
       </div>
       <div className={styles.spacerBetweenContentAndCallback} />
       <div className={styles.callback}>
-        <a className={styles.callActionContainerHref} href="tel:+380966116116">
-          <button className={styles.callbackBtn}>Зворотній дзвінок</button>
+        <a className={styles.callActionContainerHref} href="https://t.me/soncevmerezu?text=Вітаю, я з сайту soncevmerezu.com.ua">
+          <button className={styles.callbackBtn}>Написати в телеграм</button>
           <span className={styles.phone}>
-            +38&nbsp;<b>093 266 84 01</b>
+            TG: @soncevmerezu
           </span>
         </a>
       </div>

@@ -21,11 +21,11 @@ const PageHome: React.FC = () => {
         </div>
       </div>
       <HeroSection className={styles.hero} />
-      <div className={styles.estimateBanner}>
+      {/* <div className={styles.estimateBanner}>
         <span>
           Розрахуйте вартість за <span>2 кроки</span>
         </span>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -61,7 +61,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
         <a className={styles.callActionContainerHref} href="tel:+380966116116">
           <button className={styles.callbackBtn}>Зворотній дзвінок</button>
           <span className={styles.phone}>
-            +38&nbsp;<b>096 611 61 16</b>
+            +38&nbsp;<b>093 266 84 01</b>
           </span>
         </a>
       </div>
